@@ -34,7 +34,11 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'jquery-rails'
 gem 'responders'
+gem 'sprockets'
+
 gem 'react-rails'
+
+gem 'sprockets-coffee-jsx'
 gem 'therubyracer', :require => nil
 gem 'barista'
 group :development, :test do

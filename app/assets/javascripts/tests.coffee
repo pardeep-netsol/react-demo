@@ -3,6 +3,8 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 @Tests = React.createClass
+  getInitialState: ->
+    text: "hello world"
+  
   render: ->
-    React.DOM.h2 "Hello coffee!"
-    
+    <h2>{@state.text}</h2>
