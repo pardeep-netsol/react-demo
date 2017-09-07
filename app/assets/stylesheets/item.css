@@ -1,0 +1,9 @@
+*{margin:0;padding: 0;box-sizing: border-box; font-family: arial;}
+.item-wrapper, .item-list, .item-list > div{ width: 100%; float: left; }
+.item-wrapper{padding: 50px 100px;}
+.new-item-wrapper{width: 100%; float: left; padding: 10px; box-shadow: 0px 0px 13px 0px #000; position: fixed; top:0; left:0; background: #fff;}
+.new-item-wrapper span.title, .new-item-wrapper input {
+    width: 25%;
+    float: left;
+}
+.item-list > div{border-bottom: 1px solid #ff4500; padding: 10px}
